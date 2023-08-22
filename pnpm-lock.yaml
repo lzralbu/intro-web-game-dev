@@ -8,6 +8,9 @@ dependencies:
   esbuild:
     specifier: 0.19.2
     version: 0.19.2
+  kontra:
+    specifier: ^9.0.0
+    version: 9.0.0
 
 packages:
 
@@ -237,4 +240,9 @@ packages:
       '@esbuild/win32-arm64': 0.19.2
       '@esbuild/win32-ia32': 0.19.2
       '@esbuild/win32-x64': 0.19.2
+    dev: false
+
+  /kontra@9.0.0:
+    resolution: {integrity: sha512-/8A3vsLP4OuSHlNTaF4f9tq7+AG0F2OqtlUcfQwwlRVtmrIpm1jVeKORu5EpKRxciLVG/9RkOAOgCwPwN0fVhw==}
+    engines: {node: '>=14.0.0'}
     dev: false
