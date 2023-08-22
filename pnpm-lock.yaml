@@ -8,6 +8,9 @@ dependencies:
   esbuild:
     specifier: 0.19.2
     version: 0.19.2
+  kaboom:
+    specifier: ^3000.1.1
+    version: 3000.1.1
 
 packages:
 
@@ -237,4 +240,8 @@ packages:
       '@esbuild/win32-arm64': 0.19.2
       '@esbuild/win32-ia32': 0.19.2
       '@esbuild/win32-x64': 0.19.2
+    dev: false
+
+  /kaboom@3000.1.1:
+    resolution: {integrity: sha512-oSDUZMgqyqsumM80tb7jMnMZe7f4dM2sNXaLzRtV3dkA5DQharXI+qJ7S9lfoe29VbmBqvGfZ3QPy7AMbr2cYg==}
     dev: false

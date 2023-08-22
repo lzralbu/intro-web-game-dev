@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild main.ts --bundle --outfile=build/main.js",
-    "dev": "esbuild main.ts --bundle --outfile=build/main.js --watch"
+    "build": "esbuild main.ts --bundle --outfile=./build/main.js",
+    "dev": "esbuild main.ts --bundle --outfile=./build/main.js --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esbuild": "0.19.2"
+    "esbuild": "0.19.2",
+    "kaboom": "^3000.1.1"
   }
 }
