@@ -10,7 +10,7 @@ import {
 
 init("game-canvas");
 
-setImagePath("assets");
+setImagePath("./assets");
 load("characters.png")
   .then(() => {
     let charactersSpriteSheet = SpriteSheet({
